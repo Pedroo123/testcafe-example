@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-example",
+  "version": "1.0.0",
+  "description": "exemplo de testes com testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "testcafe chrome fixtures/fixtureHelloWorld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedroo123/testcafe-example.git"
+  },
+  "author": "Pedro Brancalhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedroo123/testcafe-example/issues"
+  },
+  "homepage": "https://github.com/Pedroo123/testcafe-example#readme",
+  "dependencies": {
+    "testcafe": "^1.15.1"
+  }
+}
